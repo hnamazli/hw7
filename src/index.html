@@ -9,7 +9,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="calculator">
+        <div class="calculator__screen">
+            <input type="text" id="screen" value="0" class="calculator__screen__input" readonly>
+        </div>
+        <div class="calculator__keys clearfix">
+            <div class="left__keys">
+                <div class="keys__row">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                </div>
+                <div class="keys__row">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                </div>
+                <div class="keys__row">
+                    <button>3</button>
+                    <button>2</button>
+                    <button>1</button>
+                </div>
+                <div class="keys__row">
+                    <button>AC</button>
+                    <button>0</button>
+                    <button>.</button>
+                </div>
+            </div>
+            <div class="right__keys clearfix">
+                <button>/</button>
+                <button>x</button>
+                <button>-</button>
+                <button>+</button>
+            </div>
+        </div>
+        <div class="calculator__result">
+            <button>=</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
