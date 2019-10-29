@@ -1,0 +1,23 @@
+{
+  "name": "hw7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnamazli/hw7.git"
+  },
+  "author": "Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnamazli/hw7/issues"
+  },
+  "homepage": "https://github.com/hnamazli/hw7#readme",
+  "dependencies": {
+    "gulp": "4.0.2",
+    "gulp-cli": "2.2.0"
+  }
+}
