@@ -14,11 +14,11 @@ input:focus, button:focus {
 
 .calculator__screen__input {
     width: 100%;
-    font-size: 70px;
+    font-size: 32px;
     box-sizing: border-box;
     text-align: right;
     color: #4c4c4c;
-    padding: 15px;
+    padding: 30px 15px;
     border: none;
 }
 
