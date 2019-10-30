@@ -16,35 +16,35 @@
         <div class="calculator__keys clearfix">
             <div class="left__keys">
                 <div class="keys__row">
-                    <button value="7">7</button>
-                    <button value="8">8</button>
-                    <button value="9">9</button>
+                    <button onclick="clickKey(value)" value="7">7</button>
+                    <button onclick="clickKey(value)" value="8">8</button>
+                    <button onclick="clickKey(value)" value="9">9</button>
                 </div>
                 <div class="keys__row">
-                    <button value="4">4</button>
-                    <button value="5">5</button>
-                    <button value="6">6</button>
+                    <button onclick="clickKey(value)" value="4">4</button>
+                    <button onclick="clickKey(value)" value="5">5</button>
+                    <button onclick="clickKey(value)" value="6">6</button>
                 </div>
                 <div class="keys__row">
-                    <button value="3">3</button>
-                    <button value="2">2</button>
-                    <button value="1">1</button>
+                    <button onclick="clickKey(value)" value="3">3</button>
+                    <button onclick="clickKey(value)" value="2">2</button>
+                    <button onclick="clickKey(value)" value="1">1</button>
                 </div>
                 <div class="keys__row">
                     <button onclick="allClear()">AC</button>
-                    <button value="0">0</button>
-                    <button value=".">.</button>
+                    <button onclick="clickKey(value)" value="0">0</button>
+                    <button onclick="clickKey(value)" value=".">.</button>
                 </div>
             </div>
             <div class="right__keys clearfix">
-                <button value="/">/</button>
-                <button value="x">x</button>
-                <button value="-">-</button>
-                <button value="+">+</button>
+                <button onclick="clickOperator(value)" value="/">/</button>
+                <button onclick="clickOperator(value)" value="x">x</button>
+                <button onclick="clickOperator(value)" value="-">-</button>
+                <button onclick="clickOperator(value)" value="+">+</button>
             </div>
         </div>
         <div class="calculator__result">
-            <button value="=">=</button>
+            <button onclick="calculator()">=</button>
         </div>
     </div>
 
