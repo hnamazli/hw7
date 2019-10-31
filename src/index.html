@@ -16,35 +16,35 @@
         <div class="calculator__keys clearfix">
             <div class="left__keys">
                 <div class="keys__row">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
+                    <button onclick="clickKey(value)" value="7">7</button>
+                    <button onclick="clickKey(value)" value="8">8</button>
+                    <button onclick="clickKey(value)" value="9">9</button>
                 </div>
                 <div class="keys__row">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
+                    <button onclick="clickKey(value)" value="4">4</button>
+                    <button onclick="clickKey(value)" value="5">5</button>
+                    <button onclick="clickKey(value)" value="6">6</button>
                 </div>
                 <div class="keys__row">
-                    <button>3</button>
-                    <button>2</button>
-                    <button>1</button>
+                    <button onclick="clickKey(value)" value="3">3</button>
+                    <button onclick="clickKey(value)" value="2">2</button>
+                    <button onclick="clickKey(value)" value="1">1</button>
                 </div>
                 <div class="keys__row">
-                    <button>AC</button>
-                    <button>0</button>
-                    <button>.</button>
+                    <button onclick="allClear()">AC</button>
+                    <button onclick="clickKey(value)" value="0">0</button>
+                    <button onclick="clickKey(value)" value=".">.</button>
                 </div>
             </div>
             <div class="right__keys clearfix">
-                <button>/</button>
-                <button>x</button>
-                <button>-</button>
-                <button>+</button>
+                <button onclick="clickOperator(value)" value="/">&#247;</button>
+                <button onclick="clickOperator(value)" value="x">&#215;</button>
+                <button onclick="clickOperator(value)" value="-">&#8722;</button>
+                <button onclick="clickOperator(value)" value="+">&#43;</button>
             </div>
         </div>
         <div class="calculator__result">
-            <button>=</button>
+            <button onclick="calculator()">&#61;</button>
         </div>
     </div>
 
